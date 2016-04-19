@@ -6,4 +6,5 @@ public interface Printer {
 	public boolean isDuplex();
 	public boolean isLargePaper();
 	public boolean hasScanner();
+	public boolean hasFax();
 }
