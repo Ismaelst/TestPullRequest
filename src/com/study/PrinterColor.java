@@ -26,4 +26,10 @@ public class PrinterColor implements Printer {
 	public boolean hasScanner() {
 		return false;
 	}
+
+	@Override
+	public boolean hasFax() {
+	
+		return false;
+	}
 }
